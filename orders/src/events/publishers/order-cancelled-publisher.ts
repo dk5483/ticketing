@@ -1,4 +1,4 @@
-import { Subjects, Publisher, OrderCancelledEvent } from '@rallycoding/common';
+import { Subjects, Publisher, OrderCancelledEvent } from '@dkgittix/common';
 
 export class OrderCancelledPublisher extends Publisher<OrderCancelledEvent> {
   subject: Subjects.OrderCancelled = Subjects.OrderCancelled;

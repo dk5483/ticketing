@@ -1,5 +1,5 @@
 import express from 'express';
-import { currentUser } from '@rallycoding/common';
+import { currentUser } from '@dkgittix/common';
 
 const router = express.Router();
 
