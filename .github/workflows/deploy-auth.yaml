@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '16'
           
-      - run: cd auth && docker build -t dk548159/auth .
+      - run: cd auth && docker build -t dk5483159/auth .
       - run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
